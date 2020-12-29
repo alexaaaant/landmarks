@@ -25,11 +25,11 @@ struct Landmark: Hashable, Codable {
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
-            longitude: coordinates.logitude)
+            longitude: coordinates.longitude)
     }
     
     struct Coordinates: Hashable, Codable {
         var latitude: Double
-        var logitude: Double
+        var longitude: Double
     }
 }
