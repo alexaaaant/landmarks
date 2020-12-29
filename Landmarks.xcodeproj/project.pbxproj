@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F15A703259BB7E9001BF049 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15A702259BB7E9001BF049 /* LandmarkList.swift */; };
 		5F3A859125925C3500CA2B0C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A859025925C3500CA2B0C /* MapView.swift */; };
 		5F3A8596259270A800CA2B0C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F3A8595259270A800CA2B0C /* landmarkData.json */; };
 		5F3A859B2592713F00CA2B0C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A859A2592713F00CA2B0C /* Landmark.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F15A702259BB7E9001BF049 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		5F3A859025925C3500CA2B0C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5F3A8595259270A800CA2B0C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		5F3A859A2592713F00CA2B0C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				5F675D7F258BC6EF00D6F149 /* ContentView.swift */,
 				5F675DAB258BD66500D6F149 /* CircleImage.swift */,
 				5F3A859025925C3500CA2B0C /* MapView.swift */,
+				5F15A702259BB7E9001BF049 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				5F675D80258BC6EF00D6F149 /* ContentView.swift in Sources */,
 				5F3A859125925C3500CA2B0C /* MapView.swift in Sources */,
 				5F675D7E258BC6EF00D6F149 /* LandmarksApp.swift in Sources */,
+				5F15A703259BB7E9001BF049 /* LandmarkList.swift in Sources */,
 				5F675DAC258BD66500D6F149 /* CircleImage.swift in Sources */,
 				5F3A859B2592713F00CA2B0C /* Landmark.swift in Sources */,
 				5FEEF38525928005002AD819 /* LandmarkRow.swift in Sources */,
